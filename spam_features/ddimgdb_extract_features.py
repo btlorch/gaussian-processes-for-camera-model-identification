@@ -40,10 +40,10 @@ def process_row(row, dresden_dir, crop=FULL_RESOLUTION, postprocessing=IdentityP
             log.warning(f"Image \"{filename}\" is too small for crop window")
             return None
 
-        offset_y = height - crop // 2
-        offset_x = width - crop // 2
+        offset_y = (height - crop) // 2
+        offset_x = (width - crop) // 2
 
-        img = img[offset_y:offset_y + height, offset_x:offset_x + width]
+        img = img[offset_y:offset_y + crop, offset_x:offset_x + crop]
 
     gray = color2gray(img)
 
