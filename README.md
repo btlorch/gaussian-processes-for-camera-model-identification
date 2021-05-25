@@ -9,10 +9,12 @@ If you use this implementation, please cite the [paper](https://ieeexplore.ieee.
 
 ```
 @ARTICLE{9392307,
-  author={B. {Lorch} and F. {Schirrmacher} and A. {Maier} and C. {Riess}},
+  author={Lorch, Benedikt and Schirrmacher, Franziska and Maier, Anatol and Riess, Christian},
   journal={IEEE Signal Processing Letters}, 
   title={Reliable Camera Model Identification Using Sparse Gaussian Processes}, 
   year={2021},
+  volume={28},
+  pages={912--916},
   doi={10.1109/LSP.2021.3070206}
 }
 ```
