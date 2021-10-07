@@ -92,7 +92,7 @@ if __name__ == "__main__":
 
     # Optional
     parser.add_argument("--dresden_dir", type=str, help="Path to folder containing Dresden images and dresden.csv", default="/mnt/nfs/DresdenImageDB")
-    parser.add_argument("--crop", type=int, help="Crop images to central patch of given size")
+    parser.add_argument("--crop", type=int, help="Crop images to central patch of given size. If None, use the full resolution images.")
     args = vars(parser.parse_args())
 
     np.random.seed(91058)

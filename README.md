@@ -44,7 +44,7 @@ PYTHONPATH=`pwd` python spam_features/ddimgdb_extract_features.py \
     [--crop CROP_SIZE]
 ```
 
-This script will store the extracted features as HDF5 file to the given output directory.
+This script will store the extracted features as HDF5 file to the given output directory. If no crop argument is given, the script extracts the features from the full resolution images.
 
 ## Train Gaussian process classifier
 
